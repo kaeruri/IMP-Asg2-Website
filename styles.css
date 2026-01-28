@@ -53,6 +53,75 @@
     color: white;
   }
 
+  /*Home Page*/
+
+  .indexh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .indeximg1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .indexh2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .FoodOptions1 {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .FoodOptions1 li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    width: 100%;
+
+  }
+
+  .FoodOptions1 img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 2px;
+  }
+
+  .FoodOptions1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border: solid 1px rgb(181, 181, 181);
+    background-color: rgb(181, 181, 181);
+    padding: 8px;
+    border-radius: 5cm;
+    margin-top: 5px;
+  }
+
+  .FoodOptions1 p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
 
 
 }
