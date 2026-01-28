@@ -90,6 +90,20 @@ document.addEventListener("click", (e) => {
       return;
     }
 
+  let helpText = "No assistance requested.";
+
+  const needHelp = confirm("Do you need help bringing your food to your table?");
+
+  if (needHelp) {
+    let tableNumber = prompt("Please enter your table number:");
+
+    if (tableNumber === null || tableNumber.trim() === "") {
+      tableNumber = "Not provided";
+    }
+
+    helpText = `Assistance requested. Table number: ${tableNumber}`;
+  }
+
     const now = new Date();
     const total = subtotal(cart);
 
