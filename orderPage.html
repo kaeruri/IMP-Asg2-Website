@@ -5,14 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Order</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="order.js" defer></script>
 </head>
 <body>
-        <nav class="navbar">
+    <nav class="navbar">
         <ul class="navlinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="menuPage.html">Menu</a></li>
             <li><a href="orderPage.html" class="active">Order</a></li>
         </ul>
     </nav>
+    <div id="ordercart">
+      <div id="cart"></div>
+
+      <p><strong>Subtotal:</strong> $<span id="subtotal">0.00</span></p>
+
+      <button id="clearBtn">Clear Cart</button>
+      <button id="submitBtn">Submit Order</button>
+
+      <pre id="receipt">(No receipt yet)</pre>
+
+      <p><a href="menuPage.html">Back to Menu</a></p>
+    </div>
 </body>
 </html>
